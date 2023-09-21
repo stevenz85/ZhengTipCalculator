@@ -20,7 +20,7 @@ public class Main {
         while (price != -1) {
             if (price != -1) {
                 System.out.println("What is the item's name?");
-                string item = scan.nextString();
+                String item = scan.nextLine();
                 System.out.println("What is " + item + "'s price?");
                 double itemPrice = scan.nextDouble();
 
