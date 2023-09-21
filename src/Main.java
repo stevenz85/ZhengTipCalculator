@@ -13,10 +13,11 @@ public class Main {
         System.out.println("How many people are eating with you?");
         double totalBill = 0.00;
         double bill = 0.00;
+        double price = 0.00;
 
         System.out.println("Enter -1 to end calculation.");
 
-        while (price = -1) {
+        while (price != -1) {
             if (price != -1) {
                 System.out.println("What is the item's name?");
                 string item = scan.nextString();
