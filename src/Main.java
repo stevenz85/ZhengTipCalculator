@@ -6,9 +6,15 @@ public class Main {
 
         System.out.println("Welcome to Tip Calculator!");
         System.out.println("I help my users calculate their tips!");
-        System.out.println("What's the tip percentage?");
+        System.out.println("What's the tip percentage? (Please enter a number from 0 to 100): ");
         double tip = scan.nextDouble();
 
+        while (price = -1) {
+            System.out.println("Enter -1 to end calculation.");
+            System.out.println("What is the item name?");
+            System.out.println("What is " + item + "'s price?");
+            double item = scan.nextDouble();
+        }
 
         System.out.print("Enter an EVEN integer: ");
         int number = scan.nextInt();
