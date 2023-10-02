@@ -63,6 +63,7 @@ public class TipCalculator {
         perTotal = ((int) (perTotal * 100)) / 100;
         realTotal = total - (total * discount);
         realTotal = ((int) (realTotal * 100)) / 100;
+        discount = discount / 100;
 
         // The following code prints out the recipe
 
