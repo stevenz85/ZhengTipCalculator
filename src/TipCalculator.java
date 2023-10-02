@@ -32,9 +32,9 @@ public class TipCalculator {
         double tipPer2 = tipPer / 100;
 
         System.out.print("What's the discount? (Please type a number from 0-100): ");
-        int discount = scan.nextInt();
+        double discount = scan.nextInt();
 
-        discount = discount/100;
+        discount = discount / 100;
 
         System.out.println("Type -1 to finish calculations.");
 
